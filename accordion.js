@@ -1,4 +1,4 @@
-var acc = document.getElementById("space1");
+var acc = document.getElementById("accordion");
 acc.style.cssText = "color: gray; border: 1px solid black";
 
 acc.innerHTML 
