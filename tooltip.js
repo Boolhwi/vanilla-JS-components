@@ -2,7 +2,7 @@ var tooltip = document.getElementById("tooltip");
 tooltip.innerHTML = "<div id=button onclick=toggle()>Tooltip<span class=popuptext id=myPopup>contents...</span></div>";
 
 var bt = document.getElementById("button");
-bt.style.cssText = "position:relative; cursor:pointer; user-select:none";
+bt.style.cssText = "position:relative; cursor:pointer; user-select:none; width: 160px;background-color: #555;color: #fff;text-align: center;border-radius: 6px;padding: 8px 0";
 var text = document.getElementById("myPopup");
 text.style.cssText = "visibility: hidden; opacity:0; width: 160px;background-color: #555;color: #fff;text-align: center;border-radius: 6px;padding: 8px 0;position: absolute;z-index: 1;top: 120%;left: 50%;margin-left: -80px";
 
