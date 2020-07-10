@@ -1,8 +1,8 @@
 var drop_down = document.getElementById("drop_down");
-drop_down.innerHTML = "<div id=navbar><button id = link1 onmouseover = change(this) onmouseout = reverse(this) href=#home>Home</button><button id = link2 onmouseover = change(this) onmouseout = reverse(this) href=#news>News</button><div id=dd_box onmouseover = change_dd() onmouseout = reverse_dd()><button id=dropbtn>Dropdown +</button><div id=dd_container ><a id = dd_link1 href=#>Link 1</a><a id = dd_link2 href=#>Link 2</a><a id = dd_link3 href=#>Link 3</a>  </div></div></div>";
+drop_down.innerHTML = "<div id=dd_menu><button id = link1 onmouseover = change(this) onmouseout = reverse(this) href=#home>Home</button><button id = link2 onmouseover = change(this) onmouseout = reverse(this) href=#news>News</button><div id=dd_box onmouseover = change_dd() onmouseout = reverse_dd()><button id=dropbtn>Dropdown +</button><div id=dd_container ><a id = dd_link1 href=#>Link 1</a><a id = dd_link2 href=#>Link 2</a><a id = dd_link3 href=#>Link 3</a>  </div></div></div>";
 
-var navbar = document.getElementById("navbar");
-navbar.style.cssText = "overflow: hidden; background-color: #333";
+var dd_menu = document.getElementById("dd_menu");
+dd_menu.style.cssText = "overflow: hidden; background-color: #333";
 
 var link1 = document.getElementById("link1");
 link1.style.cssText = "float: left;font-size: 16px;color: white;text-align: center;padding: 14px 16px; border:none;background-color: #333;font-family: Arial; outline:none; cursor:pointer";
